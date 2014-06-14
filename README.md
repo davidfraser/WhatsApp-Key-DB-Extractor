@@ -27,7 +27,7 @@
 
  INSTRUCTIONS:
 
- 1.) Extract "WhatsAppKeyExtract.zip" on your computer maintaining the directory structure.
+ 1.) Extract "WhatsApp-Key-DB-Extractor.zip" on your computer maintaining the directory structure.
  2.) Browse to the extracted folder and click on "WhatsAppKeyExtract.bat".
  3.) Connect your device via USB*, unlock your screen and wait for "Full backup" to appear.
  4.) Leave the password field blank and tap on "Back up my data".
