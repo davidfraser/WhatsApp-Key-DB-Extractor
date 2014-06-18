@@ -17,7 +17,7 @@
 
  PREREQUISITES:
 
- 1.) O/S: Windows Vista, Windows 7 or Windows 8
+ 1.) O/S: Windows Vista, Windows 7 or Windows 8, or Linux
  2.) Java (will start installation procedure if not already present on your system)
  3.) ADB (Android Debug Bridge) Drivers - If not installed: http://forum.xda-developers.com/showthread.php?t=2588979
  4.) USB Debugging must be enabled on the target device. Settings -> Developer Options -> (Debugging) USB debugging
@@ -25,7 +25,7 @@
      multiple times until you're finally declared a developer.
 
 
- INSTRUCTIONS:
+ INSTRUCTIONS (WINDOWS):
 
  1.) Extract "WhatsApp-Key-DB-Extractor.zip" on your computer maintaining the directory structure.
  2.) Browse to the extracted folder and click on "WhatsAppKeyExtract.bat".
@@ -35,6 +35,13 @@
 
  * = If you have never used USB Debugging before, you may also need to verify the fingerprint.
 
+ INSTRUCTIONS (LINUX):
+ 
+ 1.) Download the script `./whatspp-key-extractor`
+ 2.) Connect your device via USB*, unlock your screen and ensure that the device is connected by running "adb devices"
+ 3.) Run ./whatsapp-key-extractor and wait for "Full backup" to appear.
+ 4.) Leave the password field blank and tap on "Back up my data".
+ 5.) The key will be copied back onto your machine in such a way that WhatsApp TriCrypt will work
  
  Author: Abinash Bishoyi
  Intial Work: TripCode
